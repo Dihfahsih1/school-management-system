@@ -1,0 +1,33 @@
+INFO 2022-05-29 12:18:37,771 Watching for file changes with StatReloader
+INFO 2022-05-29 12:19:13,503 Watching for file changes with StatReloader
+INFO 2022-05-29 12:19:23,591 "GET / HTTP/1.1" 302 0
+INFO 2022-05-29 12:19:23,656 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2022-05-29 12:19:23,738 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2022-05-29 12:19:23,746 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2022-05-29 12:19:23,748 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2022-05-29 12:19:23,753 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2022-05-29 12:19:23,803 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2022-05-29 12:19:23,830 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2022-05-29 12:19:23,833 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2022-05-29 12:19:23,840 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2022-05-29 12:19:23,854 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2022-05-29 12:19:23,862 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2022-05-29 12:19:23,934 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2022-05-29 12:19:24,160 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2022-05-29 12:19:37,568 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2022-05-29 12:19:37,726 "GET / HTTP/1.1" 200 9290
+INFO 2022-05-29 12:19:37,837 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2022-05-29 12:19:37,901 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2022-05-29 12:19:37,978 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2022-05-29 12:20:03,209 "GET / HTTP/1.1" 200 9290
+INFO 2022-05-29 12:24:01,978 "GET /current-session/ HTTP/1.1" 200 10518
+INFO 2022-05-29 12:24:09,402 "GET /session/create/?next=current-session/ HTTP/1.1" 200 10174
+INFO 2022-05-29 12:24:30,615 "POST /session/create/?next=current-session/ HTTP/1.1" 302 0
+INFO 2022-05-29 12:24:30,774 "GET /session/list/ HTTP/1.1" 200 12086
+INFO 2022-05-29 12:24:41,050 "GET /result/create/ HTTP/1.1" 200 10386
+INFO 2022-05-29 12:24:43,929 "GET /result/edit-results/ HTTP/1.1" 200 10104
+INFO 2022-05-29 12:24:46,346 "GET /result/view/all HTTP/1.1" 200 8834
+INFO 2022-05-29 12:24:55,994 "GET /term/list/ HTTP/1.1" 200 12231
+INFO 2022-05-29 12:25:02,392 "GET /subject/list/ HTTP/1.1" 200 11397
+INFO 2022-05-29 12:25:08,709 "GET /staff/list/ HTTP/1.1" 200 9687
+INFO 2022-05-29 12:25:11,591 "GET /student/list HTTP/1.1" 200 9946
