@@ -21,6 +21,7 @@
           <th>Gender</th>
           <th>Mobile Phone Number</th>
           <th>Status</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
@@ -34,6 +35,7 @@
             <td>{{ student.get_gender_display}}</td>
             <td>{{ student.parent_mobile_number}}</td>
             <td>{{ student.get_current_status_display}}</td>
+            <td><a href="{% url 'student-update' student.pk %}" class="btn btn-sm btn-success">Edit</a></td>
           </tr>
         {% endfor %}
 

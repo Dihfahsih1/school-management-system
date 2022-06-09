@@ -12,10 +12,14 @@ from apps.finance.models import Invoice
 
 from .models import Student, StudentBulkUpload
 
-
+from django.utils import timezone
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
     template_name = "students/student_list.html"
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['students'] = Student.objects.all()
+        return context
 
 
 class StudentDetailView(LoginRequiredMixin, DetailView):
