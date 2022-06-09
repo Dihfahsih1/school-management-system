@@ -16,9 +16,10 @@ from django.utils import timezone
 class StudentListView(LoginRequiredMixin, ListView):
     model = Student
     template_name = "students/student_list.html"
+    
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['students'] = Student.objects.all()
+        context['students'] =self.object_list
         return context
 
 
