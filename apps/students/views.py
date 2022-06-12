@@ -50,6 +50,7 @@ class StudentCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
 class StudentUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Student
     fields = "__all__"
+    success_url = "/student/list"
     success_message = "Record successfully updated."
 
     def get_form(self):
