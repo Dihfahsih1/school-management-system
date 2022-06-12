@@ -33,6 +33,9 @@ Academic Sessions
                     class="fa fa-edit"></i></a> <a
                   href="{% url 'session-delete' object.id %}"><i
                     class="fa fa-trash-alt"></i></a></td>
+              {% if object.current is not True %}      
+              <td><a href="{% url 'activate-accademic-session' object.pk  %}" class="btn btn-success">Activate</td>
+              {% endif %}
             </tr>
             {% endfor %}
           </tbody>

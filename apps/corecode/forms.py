@@ -24,7 +24,7 @@ class AcademicSessionForm(ModelForm):
 
     class Meta:
         model = AcademicSession
-        fields = ["name", "current"]
+        fields = ["name",]
 
 
 class AcademicTermForm(ModelForm):

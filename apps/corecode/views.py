@@ -70,7 +70,12 @@ class SessionCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
         context["title"] = "Add new session"
         return context
 
-
+def activate_session(request, pk):
+    if request.method == "GET":
+        AcademicSession.objects.update(current=False)
+        AcademicSession.objects.filter(id=pk).update(current=True)
+        messages.success(request, f'New Academic Session has been Activated')
+        return redirect('sessions')
 class SessionUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = AcademicSession
     form_class = AcademicSessionForm

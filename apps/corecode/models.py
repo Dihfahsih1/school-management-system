@@ -17,7 +17,7 @@ class AcademicSession(models.Model):
     """Academic Session"""
 
     name = models.CharField(max_length=200, unique=True)
-    current = models.BooleanField(default=True)
+    current = models.BooleanField(default=False)
 
     class Meta:
         ordering = ["-name"]

@@ -20,11 +20,13 @@ from .views import (
     TermDeleteView,
     TermListView,
     TermUpdateView,
+    activate_session,
 )
 
 urlpatterns = [
     path("", IndexView.as_view(), name="home"),
     path("site-config", SiteConfigView.as_view(), name="configs"),
+    path("session/activation/<int:pk>", activate_session, name="activate-accademic-session"),
     path(
         "current-session/", CurrentSessionAndTermView.as_view(), name="current-session"
     ),
