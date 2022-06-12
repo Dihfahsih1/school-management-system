@@ -39,10 +39,10 @@
           <a href="{% url 'home' %} " class="nav-link"><i class="fa fa-home"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="{% url 'current-session' %}" class="nav-link">Session: {{ current_session }}</a>
+          <a href="{% url 'sessions' %}" class="nav-link">Session: {{ current_session }}</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="{% url 'current-session' %}" class="nav-link">Term: {{ current_term }}</a>
+          <a href="{% url 'terms' %}" class="nav-link">Term: {{ current_term }}</a>
         </li>
       </ul>
 
@@ -76,7 +76,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"MySchool" }}</a>
+      <a href="{% url 'home' %}" class="brand-link">{{ school_name | default:"DJANGO - SCHOOL" }}</a>
 
       <!-- Sidebar -->
       <div class="sidebar">
