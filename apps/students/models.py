@@ -34,7 +34,7 @@ class Student(models.Model):
 
     address = models.TextField(blank=True)
     others = models.TextField(blank=True)
-    passport = models.ImageField(blank=True, upload_to="students/passports/")
+    photo = models.ImageField(blank=True, upload_to="students/photos/")
 
     class Meta:
         ordering = ["surname", "firstname", "other_name"]
