@@ -76,6 +76,13 @@ def activate_session(request, pk):
         AcademicSession.objects.filter(id=pk).update(current=True)
         messages.success(request, f'New Academic Session has been Activated')
         return redirect('sessions')
+    
+def activate_term(request, pk):
+    if request.method == "GET":
+        AcademicTerm.objects.update(current=False)
+        AcademicTerm.objects.filter(id=pk).update(current=True)
+        messages.success(request, f'New Academic Term has been Activated')
+        return redirect('terms')
 class SessionUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = AcademicSession
     form_class = AcademicSessionForm

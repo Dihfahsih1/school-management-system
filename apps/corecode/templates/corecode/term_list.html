@@ -29,10 +29,14 @@ Academic Term
                   Current <i class="fa fa-check"></i>
                 {% endif %}
               </td>
-              <td><a href="{% url 'term-update' object.id %}"><i
+               {% comment %}<td><a href="{% url 'term-update' object.id %}"><i
                     class="fa fa-edit"></i></a> <a
                   href="{% url 'term-delete' object.id %}"><i
-                    class="fa fa-trash-alt"></i></a></td>
+                    class="fa fa-trash-alt"></i></a> 
+                  </td>{% endcomment %}
+                    {% if object.current is not True %}      
+                <td><a href="{% url 'activate-accademic-term' object.pk  %}" class="btn btn-success">Activate</td>
+                    {% endif %}
             </tr>
             {% endfor %}
           </tbody>

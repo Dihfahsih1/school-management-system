@@ -7,10 +7,10 @@ class SiteWideConfigs:
     def __call__(self, request):
         try:
             current_session = AcademicSession.objects.get(current=True)
+            current_term = AcademicTerm.objects.get(current=True)
         except:
             current_session = AcademicSession.objects.filter(current=False)
-            
-        current_term = AcademicTerm.objects.get(current=True)
+            current_term = AcademicTerm.objects.get(current=False)
 
         request.current_session = current_session
         request.current_term = current_term
