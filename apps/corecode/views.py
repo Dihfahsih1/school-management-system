@@ -56,8 +56,6 @@ class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         context = super().get_context_data(**kwargs)
         context["form"] = AcademicSessionForm()
         return context
-
-
 class SessionCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = AcademicSession
     form_class = AcademicSessionForm
@@ -117,8 +115,6 @@ class SessionDeleteView(LoginRequiredMixin, DeleteView):
             return redirect("sessions")
         messages.success(self.request, self.success_message.format(obj.name))
         return super(SessionDeleteView, self).delete(request, *args, **kwargs)
-
-
 class TermListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
     model = AcademicTerm
     template_name = "corecode/term_list.html"
@@ -171,8 +167,6 @@ class TermDeleteView(LoginRequiredMixin, DeleteView):
             return redirect("terms")
         messages.success(self.request, self.success_message.format(obj.name))
         return super(TermDeleteView, self).delete(request, *args, **kwargs)
-
-
 class ClassListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
     model = StudentClass
     template_name = "corecode/class_list.html"
@@ -181,8 +175,6 @@ class ClassListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
         context = super().get_context_data(**kwargs)
         context["form"] = StudentClassForm()
         return context
-
-
 class ClassCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     model = StudentClass
     form_class = StudentClassForm
@@ -228,8 +220,6 @@ class SubjectCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     template_name = "corecode/mgt_form.html"
     success_url = reverse_lazy("subjects")
     success_message = "New subject successfully added"
-
-
 class SubjectUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = Subject
     fields = ["name"]
