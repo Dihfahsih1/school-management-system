@@ -1,0 +1,1313 @@
+INFO 2022-06-09 18:27:14,452 Watching for file changes with StatReloader
+INFO 2022-06-09 18:27:24,941 "GET / HTTP/1.1" 302 0
+INFO 2022-06-09 18:27:24,958 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2022-06-09 18:27:25,049 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2022-06-09 18:27:25,051 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2022-06-09 18:27:25,051 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19724
+INFO 2022-06-09 18:27:25,052 "GET /static/dist/css/login-page.css HTTP/1.1" 200 8610
+INFO 2022-06-09 18:27:25,052 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2022-06-09 18:27:25,131 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13632
+INFO 2022-06-09 18:27:25,143 "GET /static/dist/js/demo.js HTTP/1.1" 200 12616
+INFO 2022-06-09 18:27:25,144 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2022-06-09 18:27:25,146 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5251
+INFO 2022-06-09 18:27:25,147 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2022-06-09 18:27:25,191 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2022-06-09 18:27:25,273 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+INFO 2022-06-09 18:27:30,181 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2022-06-09 18:27:30,288 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-09 18:27:30,340 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25780
+INFO 2022-06-09 18:27:30,438 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2022-06-09 18:27:30,482 "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2022-06-09 18:29:51,871 "GET /session/list/ HTTP/1.1" 200 11941
+INFO 2022-06-09 18:30:07,071 "GET /site-config HTTP/1.1" 200 10862
+INFO 2022-06-09 18:30:25,522 "POST /site-config HTTP/1.1" 200 10883
+INFO 2022-06-09 18:30:42,904 "POST /site-config HTTP/1.1" 200 10884
+INFO 2022-06-09 18:30:50,079 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-09 18:30:54,337 "GET /staff/list/ HTTP/1.1" 200 9687
+INFO 2022-06-09 18:31:00,612 "GET /staff/create/ HTTP/1.1" 200 12600
+INFO 2022-06-09 18:31:15,819 "GET /student/list HTTP/1.1" 200 9946
+INFO 2022-06-09 18:31:20,345 "GET /student/upload/ HTTP/1.1" 200 10001
+INFO 2022-06-09 18:33:32,993 "POST /student/upload/ HTTP/1.1" 302 0
+INFO 2022-06-09 18:33:33,104 "GET /student/list HTTP/1.1" 200 10091
+INFO 2022-06-09 18:33:47,562 "GET /student/list HTTP/1.1" 200 9946
+INFO 2022-06-09 18:33:55,462 "GET /student/upload/ HTTP/1.1" 200 10001
+INFO 2022-06-09 18:33:58,178 "GET /student/download-csv/ HTTP/1.1" 200 94
+INFO 2022-06-09 18:36:57,302 "POST /student/upload/ HTTP/1.1" 302 0
+INFO 2022-06-09 18:36:57,407 "GET /student/list HTTP/1.1" 200 10091
+INFO 2022-06-09 18:37:08,135 "GET /student/list HTTP/1.1" 200 9946
+WARNING 2022-06-09 18:37:26,099 Not Found: /admin
+WARNING 2022-06-09 18:37:26,100 "GET /admin HTTP/1.1" 404 6184
+WARNING 2022-06-09 18:37:30,158 Not Found: /admin/
+WARNING 2022-06-09 18:37:30,159 "GET /admin/ HTTP/1.1" 404 6187
+INFO 2022-06-09 18:39:48,046 /home/pythonista/Desktop/djanago-school/school_app/urls.py changed, reloading.
+INFO 2022-06-09 18:39:48,468 Watching for file changes with StatReloader
+INFO 2022-06-09 18:40:52,473 /home/pythonista/Desktop/djanago-school/school_app/settings.py changed, reloading.
+INFO 2022-06-09 18:40:52,894 Watching for file changes with StatReloader
+INFO 2022-06-09 18:41:57,015 Watching for file changes with StatReloader
+INFO 2022-06-09 18:47:29,970 Watching for file changes with StatReloader
+INFO 2022-06-09 18:47:36,921 "GET /admin/ HTTP/1.1" 200 3331
+INFO 2022-06-09 18:47:36,990 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2022-06-09 18:47:36,993 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2022-06-09 18:47:36,996 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2022-06-09 18:47:37,000 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2022-06-09 18:47:37,002 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2022-06-09 18:47:37,011 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-06-09 18:47:37,149 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-06-09 18:47:37,149 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-06-09 18:47:37,330 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-06-09 18:47:37,334 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-06-09 18:47:37,340 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-06-09 18:50:31,337 /home/pythonista/Desktop/djanago-school/apps/students/admin.py changed, reloading.
+INFO 2022-06-09 18:50:31,693 Watching for file changes with StatReloader
+INFO 2022-06-09 18:51:01,463 /home/pythonista/Desktop/djanago-school/apps/students/admin.py changed, reloading.
+INFO 2022-06-09 18:51:01,816 Watching for file changes with StatReloader
+INFO 2022-06-09 18:51:07,548 "GET /admin/ HTTP/1.1" 200 4481
+INFO 2022-06-09 18:51:13,534 "GET /admin/students/student/ HTTP/1.1" 200 6711
+INFO 2022-06-09 18:51:13,686 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2022-06-09 18:51:13,689 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-06-09 18:51:13,691 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2022-06-09 18:51:13,693 "GET /static/admin/js/actions.js HTTP/1.1" 200 7664
+INFO 2022-06-09 18:51:13,694 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2022-06-09 18:51:13,696 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-06-09 18:51:13,701 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-06-09 18:51:13,702 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-06-09 18:51:13,704 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-06-09 18:51:13,873 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 18:51:14,020 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-06-09 18:51:27,998 "GET /admin/students/student/1/change/ HTTP/1.1" 200 13139
+INFO 2022-06-09 18:51:28,063 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2022-06-09 18:51:28,065 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2022-06-09 18:51:28,066 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2022-06-09 18:51:28,069 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2022-06-09 18:51:28,087 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2022-06-09 18:51:28,139 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2022-06-09 18:51:28,206 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 18:51:28,294 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2022-06-09 18:51:28,342 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-06-09 19:09:39,144 Watching for file changes with StatReloader
+INFO 2022-06-09 20:30:53,879 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-09 20:30:54,255 Watching for file changes with StatReloader
+INFO 2022-06-09 20:30:59,630 "GET / HTTP/1.1" 200 9290
+ERROR 2022-06-09 20:31:02,608 Internal Server Error: /student/list
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'datetime.datetime' object is not iterable
+ERROR 2022-06-09 20:31:02,610 "GET /student/list HTTP/1.1" 500 172011
+INFO 2022-06-09 20:31:39,377 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-09 20:31:39,712 Watching for file changes with StatReloader
+INFO 2022-06-09 20:31:44,498 "GET /student/list HTTP/1.1" 200 10505
+INFO 2022-06-09 20:33:11,414 "GET /admin HTTP/1.1" 301 0
+INFO 2022-06-09 20:33:11,507 "GET /admin/ HTTP/1.1" 200 4481
+INFO 2022-06-09 20:33:23,256 "GET /admin/students/studentbulkupload/ HTTP/1.1" 200 5393
+INFO 2022-06-09 20:33:23,518 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:33:29,651 "GET /admin/students/student/ HTTP/1.1" 200 6711
+INFO 2022-06-09 20:33:29,817 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:33:32,790 "GET /admin/students/student/1/change/ HTTP/1.1" 200 13139
+INFO 2022-06-09 20:33:32,958 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:34:29,691 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-09 20:34:30,054 Watching for file changes with StatReloader
+INFO 2022-06-09 20:34:39,139 "POST /admin/students/student/1/change/ HTTP/1.1" 200 13310
+INFO 2022-06-09 20:34:39,297 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:35:11,895 "POST /admin/students/student/1/change/ HTTP/1.1" 200 13320
+INFO 2022-06-09 20:35:12,053 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:35:25,953 "POST /admin/students/student/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-09 20:35:26,120 "GET /admin/students/student/ HTTP/1.1" 200 6934
+INFO 2022-06-09 20:35:26,275 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 20:35:26,414 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-06-09 20:35:32,625 "GET /student/list HTTP/1.1" 200 10226
+INFO 2022-06-09 20:35:52,835 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-09 20:35:53,265 Watching for file changes with StatReloader
+INFO 2022-06-09 20:35:56,735 "GET /student/list HTTP/1.1" 200 10514
+INFO 2022-06-09 20:47:01,576 "GET /student/list HTTP/1.1" 200 10720
+INFO 2022-06-09 20:47:10,348 "GET /student/2/update/ HTTP/1.1" 200 13729
+INFO 2022-06-09 20:48:04,882 "POST /student/2/update/ HTTP/1.1" 200 13865
+INFO 2022-06-09 20:48:33,430 "POST /student/2/update/ HTTP/1.1" 302 0
+INFO 2022-06-09 20:48:33,547 "GET /student/2/ HTTP/1.1" 200 11267
+INFO 2022-06-09 20:48:33,644 "GET /static/dist/img/avatar.png HTTP/1.1" 200 8543
+INFO 2022-06-09 20:48:54,854 "GET /student/list HTTP/1.1" 200 10727
+INFO 2022-06-09 20:49:33,991 "GET /student/1/update/ HTTP/1.1" 200 13747
+INFO 2022-06-09 20:49:52,034 "POST /student/1/update/ HTTP/1.1" 302 0
+INFO 2022-06-09 20:49:52,174 "GET /student/1/ HTTP/1.1" 200 11269
+INFO 2022-06-09 21:02:52,018 Watching for file changes with StatReloader
+INFO 2022-06-09 21:03:01,652 "GET /current-session/ HTTP/1.1" 200 10558
+ERROR 2022-06-09 21:03:15,650 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 257, in post
+    form = self.form_Class(request.POST)
+AttributeError: 'CurrentSessionAndTermView' object has no attribute 'form_Class'
+ERROR 2022-06-09 21:03:15,651 "POST /current-session/ HTTP/1.1" 500 85061
+INFO 2022-06-09 21:05:31,990 /home/pythonista/Desktop/djanago-school/apps/corecode/views.py changed, reloading.
+INFO 2022-06-09 21:05:32,418 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:05:39,557 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 265, in post
+    return render(request, self.template_name, {"form": form})
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-09 21:05:39,559 "POST /current-session/ HTTP/1.1" 500 124207
+ERROR 2022-06-09 21:05:56,924 Internal Server Error: /session/create/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-09 21:05:56,925 "GET /session/create/?next=current-session/ HTTP/1.1" 500 73534
+INFO 2022-06-09 21:07:03,386 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-09 21:07:03,728 Watching for file changes with StatReloader
+INFO 2022-06-09 21:07:10,064 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-09 21:07:10,425 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:07:14,212 Internal Server Error: /session/create/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 3!
+ERROR 2022-06-09 21:07:14,214 "GET /session/create/?next=current-session/ HTTP/1.1" 500 73629
+INFO 2022-06-09 21:07:39,250 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-09 21:07:39,711 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:07:44,037 Internal Server Error: /session/create/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-09 21:07:44,038 "GET /session/create/?next=current-session/ HTTP/1.1" 500 73671
+INFO 2022-06-09 21:09:49,497 /home/pythonista/Desktop/djanago-school/apps/students/admin.py changed, reloading.
+INFO 2022-06-09 21:09:49,934 Watching for file changes with StatReloader
+INFO 2022-06-09 21:11:29,417 /home/pythonista/Desktop/djanago-school/apps/students/admin.py changed, reloading.
+INFO 2022-06-09 21:11:29,755 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:11:35,938 Internal Server Error: /admin/students/student/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-09 21:11:35,939 "GET /admin/students/student/ HTTP/1.1" 500 73349
+INFO 2022-06-09 21:12:14,818 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-09 21:12:15,205 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:12:18,265 Internal Server Error: /admin/students/student/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 6, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-09 21:12:18,266 "GET /admin/students/student/ HTTP/1.1" 500 121849
+INFO 2022-06-09 21:13:13,622 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-09 21:13:14,041 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:13:18,156 Internal Server Error: /admin/students/student/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 10, in site_defaults
+    "current_term": current_term.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-09 21:13:18,157 "GET /admin/students/student/ HTTP/1.1" 500 113313
+INFO 2022-06-09 21:14:30,810 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-09 21:14:31,219 Watching for file changes with StatReloader
+ERROR 2022-06-09 21:14:34,848 Internal Server Error: /admin/students/student/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 16, in site_defaults
+    contexts[val.key] = val.value
+UnboundLocalError: local variable 'contexts' referenced before assignment
+ERROR 2022-06-09 21:14:34,849 "GET /admin/students/student/ HTTP/1.1" 500 113004
+INFO 2022-06-09 21:15:30,612 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-09 21:15:30,979 Watching for file changes with StatReloader
+INFO 2022-06-09 21:15:34,282 "GET /admin/students/student/ HTTP/1.1" 200 7597
+INFO 2022-06-09 21:15:34,441 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:15:43,249 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 7842
+INFO 2022-06-09 21:15:43,513 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:15:50,274 "GET /admin/corecode/academicterm/3/change/ HTTP/1.1" 200 7574
+INFO 2022-06-09 21:15:50,398 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:15:54,440 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 7842
+INFO 2022-06-09 21:15:56,739 "GET /admin/corecode/academicterm/2/change/ HTTP/1.1" 200 7582
+INFO 2022-06-09 21:15:56,931 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:16:01,830 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 7842
+INFO 2022-06-09 21:16:04,114 "GET /admin/corecode/academicterm/1/change/ HTTP/1.1" 200 7582
+INFO 2022-06-09 21:16:04,297 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:16:08,180 "POST /admin/corecode/academicterm/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-09 21:16:08,297 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 8059
+INFO 2022-06-09 21:16:08,838 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-09 21:16:19,171 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-09 21:16:19,546 Watching for file changes with StatReloader
+INFO 2022-06-09 21:16:35,142 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-09 21:16:35,516 Watching for file changes with StatReloader
+INFO 2022-06-09 21:16:40,588 "GET /session/create/?next=current-session/ HTTP/1.1" 200 10174
+INFO 2022-06-09 21:20:54,715 Watching for file changes with StatReloader
+INFO 2022-06-09 21:21:03,199 "GET /student/list HTTP/1.1" 200 10727
+INFO 2022-06-09 21:21:38,888 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-09 21:21:39,290 Watching for file changes with StatReloader
+INFO 2022-06-12 10:56:58,687 Watching for file changes with StatReloader
+INFO 2022-06-12 10:57:17,938 "GET / HTTP/1.1" 302 0
+INFO 2022-06-12 10:57:18,001 "GET /accounts/login/?next=/ HTTP/1.1" 200 3981
+INFO 2022-06-12 10:57:18,269 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58578
+INFO 2022-06-12 10:57:18,271 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88145
+INFO 2022-06-12 10:57:18,272 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80698
+INFO 2022-06-12 10:57:18,282 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686707
+INFO 2022-06-12 10:57:18,300 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42383
+INFO 2022-06-12 10:57:18,302 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 57530
+INFO 2022-06-12 10:57:18,418 "GET /static/dist/img/login.png HTTP/1.1" 200 144918
+INFO 2022-06-12 10:57:18,462 "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+WARNING 2022-06-12 10:57:18,854 Not Found: /favicon.ico
+WARNING 2022-06-12 10:57:18,854 "GET /favicon.ico HTTP/1.1" 404 6308
+INFO 2022-06-12 10:57:21,906 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2022-06-12 10:57:22,022 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 10:57:22,164 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042446
+INFO 2022-06-12 10:57:31,272 "GET /result/create/ HTTP/1.1" 200 10745
+INFO 2022-06-12 10:57:40,605 "POST /result/create/ HTTP/1.1" 200 10945
+INFO 2022-06-12 10:57:50,138 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 10:57:50,271 "GET /result/edit-results/ HTTP/1.1" 200 11410
+INFO 2022-06-12 10:58:29,693 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2022-06-12 10:58:29,803 "GET /result/edit-results/ HTTP/1.1" 200 11561
+INFO 2022-06-12 10:59:10,092 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2022-06-12 10:59:10,225 "GET /result/edit-results/ HTTP/1.1" 200 11559
+INFO 2022-06-12 10:59:27,709 "GET /result/create/ HTTP/1.1" 200 10745
+INFO 2022-06-12 10:59:33,449 "GET /result/view/all HTTP/1.1" 200 10065
+INFO 2022-06-12 11:00:11,298 "GET /subject/list/ HTTP/1.1" 200 11397
+INFO 2022-06-12 11:00:25,579 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:00:25,663 "GET /subject/list/ HTTP/1.1" 200 11827
+INFO 2022-06-12 11:00:40,654 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:00:40,832 "GET /subject/list/ HTTP/1.1" 200 12114
+INFO 2022-06-12 11:00:54,437 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:00:54,562 "GET /subject/list/ HTTP/1.1" 200 12401
+INFO 2022-06-12 11:01:05,511 "POST /subject/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:01:05,645 "GET /subject/list/ HTTP/1.1" 200 12686
+INFO 2022-06-12 11:01:12,969 "GET /result/view/all HTTP/1.1" 200 10065
+INFO 2022-06-12 11:01:18,776 "GET /result/edit-results/ HTTP/1.1" 200 11416
+INFO 2022-06-12 11:01:40,426 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:01:40,576 "GET /result/edit-results/ HTTP/1.1" 200 10905
+INFO 2022-06-12 11:01:54,409 "GET /class/list/ HTTP/1.1" 200 11964
+INFO 2022-06-12 11:01:58,033 "GET /class/4/update/ HTTP/1.1" 200 9822
+INFO 2022-06-12 11:02:07,816 "POST /class/4/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:02:07,940 "GET /class/list/ HTTP/1.1" 200 12111
+INFO 2022-06-12 11:02:12,883 "GET /class/1/update/ HTTP/1.1" 200 9824
+INFO 2022-06-12 11:02:25,108 "POST /class/1/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:02:25,249 "GET /class/list/ HTTP/1.1" 200 12114
+INFO 2022-06-12 11:02:28,449 "GET /class/2/update/ HTTP/1.1" 200 9824
+INFO 2022-06-12 11:02:38,596 "POST /class/2/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:02:38,748 "GET /class/list/ HTTP/1.1" 200 12118
+INFO 2022-06-12 11:02:43,382 "GET /class/3/update/ HTTP/1.1" 200 9822
+INFO 2022-06-12 11:02:54,598 "POST /class/3/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:02:54,732 "GET /class/list/ HTTP/1.1" 200 12125
+INFO 2022-06-12 11:03:14,180 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:03:14,338 "GET /class/list/ HTTP/1.1" 200 12409
+INFO 2022-06-12 11:03:26,080 "POST /class/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:03:26,221 "GET /class/list/ HTTP/1.1" 200 12691
+INFO 2022-06-12 11:04:01,895 "GET /result/create/ HTTP/1.1" 200 10755
+INFO 2022-06-12 11:04:57,975 "GET /student/list HTTP/1.1" 200 10737
+INFO 2022-06-12 11:05:02,772 "GET /student/upload/ HTTP/1.1" 200 10001
+INFO 2022-06-12 11:05:06,258 "GET /student/download-csv/ HTTP/1.1" 200 94
+INFO 2022-06-12 11:09:28,903 "POST /student/upload/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:09:29,019 "GET /student/list HTTP/1.1" 200 12686
+INFO 2022-06-12 11:10:14,693 "GET /student/1/update/ HTTP/1.1" 200 13845
+INFO 2022-06-12 11:10:48,765 "POST /student/1/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:10:48,924 "GET /student/1/ HTTP/1.1" 200 11256
+INFO 2022-06-12 11:11:03,090 "GET /student/delete/1/ HTTP/1.1" 200 9597
+INFO 2022-06-12 11:11:14,281 "GET /student/list HTTP/1.1" 200 12528
+INFO 2022-06-12 11:11:21,330 "GET /student/2/update/ HTTP/1.1" 200 13843
+INFO 2022-06-12 11:11:46,046 "POST /student/2/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:11:46,187 "GET /student/2/ HTTP/1.1" 200 11262
+INFO 2022-06-12 11:12:03,554 "GET /student/list HTTP/1.1" 200 12517
+INFO 2022-06-12 11:13:41,986 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-12 11:13:42,377 Watching for file changes with StatReloader
+INFO 2022-06-12 11:14:04,071 "GET /student/3/update/ HTTP/1.1" 200 13790
+INFO 2022-06-12 11:14:23,980 "POST /student/3/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 11:14:24,113 "GET /student/list HTTP/1.1" 200 12660
+INFO 2022-06-12 11:15:12,553 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 12:20:31,574 "GET /student/list HTTP/1.1" 200 12517
+INFO 2022-06-12 12:20:38,891 "GET /staff/list/ HTTP/1.1" 200 9687
+INFO 2022-06-12 12:20:48,906 "GET /finance/list/ HTTP/1.1" 200 9925
+INFO 2022-06-12 12:20:53,298 "GET /finance/create/ HTTP/1.1" 200 13910
+INFO 2022-06-12 12:22:13,578 "POST /finance/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 12:22:13,669 "GET /finance/list HTTP/1.1" 301 0
+INFO 2022-06-12 12:22:13,835 "GET /finance/list/ HTTP/1.1" 200 10354
+INFO 2022-06-12 12:22:28,642 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 10852
+INFO 2022-06-12 12:22:49,626 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2022-06-12 12:22:49,758 "GET /finance/list/ HTTP/1.1" 200 10360
+INFO 2022-06-12 12:23:00,358 "GET /finance/receipt/create?invoice=1 HTTP/1.1" 200 10858
+INFO 2022-06-12 12:23:23,591 "POST /finance/receipt/create?invoice=1 HTTP/1.1" 302 0
+INFO 2022-06-12 12:23:23,741 "GET /finance/list/ HTTP/1.1" 200 10354
+INFO 2022-06-12 12:23:31,182 "GET /finance/1/detail/ HTTP/1.1" 200 11308
+INFO 2022-06-12 12:24:02,147 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 12:24:05,997 "GET /site-config HTTP/1.1" 200 10862
+INFO 2022-06-12 12:24:31,171 "POST /site-config HTTP/1.1" 200 10884
+INFO 2022-06-12 12:24:38,536 "POST /site-config HTTP/1.1" 200 10884
+INFO 2022-06-12 12:24:41,395 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 12:24:43,278 "GET /site-config HTTP/1.1" 200 10862
+INFO 2022-06-12 12:31:16,318 "GET /session/list/ HTTP/1.1" 200 11941
+INFO 2022-06-12 12:35:59,433 "GET /session/2/update/ HTTP/1.1" 200 10177
+INFO 2022-06-12 12:48:58,669 /home/pythonista/Desktop/djanago-school/apps/corecode/urls.py changed, reloading.
+INFO 2022-06-12 12:48:59,004 Watching for file changes with StatReloader
+INFO 2022-06-12 12:49:07,312 /home/pythonista/Desktop/djanago-school/apps/corecode/urls.py changed, reloading.
+INFO 2022-06-12 12:49:07,644 Watching for file changes with StatReloader
+INFO 2022-06-12 12:49:26,103 /home/pythonista/Desktop/djanago-school/apps/corecode/views.py changed, reloading.
+INFO 2022-06-12 12:49:26,458 Watching for file changes with StatReloader
+INFO 2022-06-12 12:50:47,583 "GET /session/list/ HTTP/1.1" 200 11941
+INFO 2022-06-12 12:55:26,269 "GET /session/list/ HTTP/1.1" 200 12115
+INFO 2022-06-12 12:56:03,085 "GET /session/list/ HTTP/1.1" 200 12117
+ERROR 2022-06-12 12:56:11,045 Internal Server Error: /session/activation/1
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/options.py", line 608, in get_field
+    return self.fields_map[field_name]
+KeyError: 'is_active'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 76, in activate_session
+    AcademicSession.objects.filter(id=pk).update(is_active=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 779, in update
+    query.add_update_values(kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/sql/subqueries.py", line 85, in add_update_values
+    field = self.get_meta().get_field(name)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/options.py", line 610, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: AcademicSession has no field named 'is_active'
+ERROR 2022-06-12 12:56:11,047 "GET /session/activation/1 HTTP/1.1" 500 86878
+INFO 2022-06-12 12:56:48,670 /home/pythonista/Desktop/djanago-school/apps/corecode/views.py changed, reloading.
+INFO 2022-06-12 12:56:49,153 Watching for file changes with StatReloader
+ERROR 2022-06-12 12:56:52,422 Internal Server Error: /session/activation/1
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 9, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.corecode.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
+ERROR 2022-06-12 12:56:52,423 "GET /session/activation/1 HTTP/1.1" 500 72896
+ERROR 2022-06-12 12:56:57,614 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 9, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.corecode.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
+ERROR 2022-06-12 12:56:57,615 "GET /session/list/ HTTP/1.1" 500 72837
+INFO 2022-06-12 12:58:40,115 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 12:58:40,476 Watching for file changes with StatReloader
+ERROR 2022-06-12 12:58:43,569 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 15, in __call__
+    request.current_session = current_session
+UnboundLocalError: local variable 'current_session' referenced before assignment
+ERROR 2022-06-12 12:58:43,570 "GET /session/list/ HTTP/1.1" 500 63673
+INFO 2022-06-12 12:59:33,650 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 12:59:34,003 Watching for file changes with StatReloader
+ERROR 2022-06-12 12:59:37,108 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.corecode.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_session = AcademicSession.objects.get(current=False)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 12:59:37,109 "GET /session/list/ HTTP/1.1" 500 86351
+INFO 2022-06-12 13:00:00,660 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:00:01,057 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:00:03,823 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_session = AcademicSession.objects.get(current=False)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_session = AcademicSession.objects.get(current=False)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 13:00:03,824 "GET /session/list/ HTTP/1.1" 500 86364
+ERROR 2022-06-12 13:00:05,326 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 10, in __call__
+    current_session = AcademicSession.objects.get(current=False)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_session = AcademicSession.objects.get(current=False)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 13:00:05,327 "GET /session/list/ HTTP/1.1" 500 86364
+INFO 2022-06-12 13:00:36,914 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:00:37,327 Watching for file changes with StatReloader
+INFO 2022-06-12 13:00:41,630 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:00:42,005 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:00:56,105 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 9, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.corecode.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
+ERROR 2022-06-12 13:00:56,106 "GET /admin/ HTTP/1.1" 500 72469
+INFO 2022-06-12 13:01:44,195 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:01:44,604 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:01:47,535 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 119, in __call__
+    response = self.process_response(request, response)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2022-06-12 13:01:47,536 "GET /admin/ HTTP/1.1" 500 68441
+INFO 2022-06-12 13:02:58,139 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:02:58,493 Watching for file changes with StatReloader
+INFO 2022-06-12 13:03:46,454 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:03:46,806 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:03:51,173 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+TypeError: 'SiteWideConfigs' object is not callable
+ERROR 2022-06-12 13:03:51,173 "GET /admin/ HTTP/1.1" 500 59664
+INFO 2022-06-12 13:04:17,559 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:04:17,931 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:05:05,064 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 8, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 435, in get
+    raise self.model.DoesNotExist(
+apps.corecode.models.AcademicSession.DoesNotExist: AcademicSession matching query does not exist.
+ERROR 2022-06-12 13:05:05,066 "GET /admin/ HTTP/1.1" 500 72654
+INFO 2022-06-12 13:07:01,709 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:07:02,136 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:07:06,100 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 8, in __call__
+    AcademicSession.objects.filter(self.id).update(current=True)
+AttributeError: 'SiteWideConfigs' object has no attribute 'id'
+ERROR 2022-06-12 13:07:06,100 "GET /admin/ HTTP/1.1" 500 63635
+INFO 2022-06-12 13:07:16,678 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:07:17,014 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:07:19,128 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 8, in __call__
+    AcademicSession.objects.filter(self.pk).update(current=True)
+AttributeError: 'SiteWideConfigs' object has no attribute 'pk'
+ERROR 2022-06-12 13:07:19,128 "GET /admin/ HTTP/1.1" 500 63635
+INFO 2022-06-12 13:08:04,951 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:08:05,262 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:08:07,659 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 9, in __call__
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 13:08:07,660 "GET /admin/ HTTP/1.1" 500 72764
+INFO 2022-06-12 13:08:23,812 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:08:24,172 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:08:26,385 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 5, in site_defaults
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 13:08:26,387 "GET /admin/ HTTP/1.1" 500 126751
+ERROR 2022-06-12 13:08:27,790 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 5, in site_defaults
+    current_session = AcademicSession.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicSession.MultipleObjectsReturned: get() returned more than one AcademicSession -- it returned 2!
+ERROR 2022-06-12 13:08:27,790 "GET /admin/ HTTP/1.1" 500 126751
+INFO 2022-06-12 13:09:07,002 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:09:07,337 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:09:09,831 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 9, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 13:09:09,832 "GET /admin/ HTTP/1.1" 500 118674
+INFO 2022-06-12 13:09:53,412 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:09:53,746 Watching for file changes with StatReloader
+INFO 2022-06-12 13:09:56,734 "GET /admin/ HTTP/1.1" 200 6293
+INFO 2022-06-12 13:09:56,793 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,793 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,798 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,801 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,803 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,810 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,839 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,859 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2022-06-12 13:09:56,956 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-06-12 13:09:56,958 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-06-12 13:09:56,971 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-06-12 13:10:02,909 "GET /admin/corecode/academicsession/ HTTP/1.1" 200 7661
+INFO 2022-06-12 13:10:03,018 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,099 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,103 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,115 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,141 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,180 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2022-06-12 13:10:03,187 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,188 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-06-12 13:10:03,212 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:03,301 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:10:03,443 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:06,017 "GET /admin/corecode/academicsession/2/change/ HTTP/1.1" 200 7611
+INFO 2022-06-12 13:10:06,076 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:06,085 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:06,156 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:06,157 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:06,242 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:10:20,101 "GET /admin/corecode/academicsession/ HTTP/1.1" 200 7661
+INFO 2022-06-12 13:10:20,233 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:10:22,100 "GET /admin/corecode/academicsession/1/change/ HTTP/1.1" 200 7611
+INFO 2022-06-12 13:10:22,283 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:10:26,992 "POST /admin/corecode/academicsession/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:10:27,208 "GET /admin/corecode/academicsession/ HTTP/1.1" 200 7885
+INFO 2022-06-12 13:10:27,358 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:10:27,427 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2022-06-12 13:10:38,800 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:10:39,198 Watching for file changes with StatReloader
+INFO 2022-06-12 13:10:45,497 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:10:45,839 Watching for file changes with StatReloader
+INFO 2022-06-12 13:11:32,747 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:11:33,079 Watching for file changes with StatReloader
+INFO 2022-06-12 13:13:55,451 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:13:55,797 Watching for file changes with StatReloader
+INFO 2022-06-12 13:18:15,272 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:18:15,628 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:21:58,136 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 13:21:58,138 "GET / HTTP/1.1" 500 95359
+INFO 2022-06-12 13:23:56,774 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:23:57,120 Watching for file changes with StatReloader
+INFO 2022-06-12 13:24:00,051 "GET / HTTP/1.1" 200 9285
+INFO 2022-06-12 13:24:16,824 "GET /session/list/ HTTP/1.1" 200 12183
+INFO 2022-06-12 13:26:15,544 "GET /session/1/update/ HTTP/1.1" 200 10172
+INFO 2022-06-12 13:26:37,027 "POST /session/1/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:26:37,160 "GET /session/list/ HTTP/1.1" 200 12256
+INFO 2022-06-12 13:26:46,642 "GET /session/list/ HTTP/1.1" 200 12112
+INFO 2022-06-12 13:26:50,109 "GET /session/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 13:26:50,234 "GET /session/list/ HTTP/1.1" 200 12266
+INFO 2022-06-12 13:26:57,576 "GET /session/activation/1 HTTP/1.1" 302 0
+INFO 2022-06-12 13:26:57,700 "GET /session/list/ HTTP/1.1" 200 12266
+INFO 2022-06-12 13:27:10,642 "GET /session/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 13:27:10,741 "GET /session/list/ HTTP/1.1" 200 12266
+INFO 2022-06-12 13:28:28,055 "POST /session/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:28:28,195 "GET /session/list/ HTTP/1.1" 200 12688
+INFO 2022-06-12 13:28:34,887 "GET /session/activation/3 HTTP/1.1" 302 0
+INFO 2022-06-12 13:28:35,012 "GET /session/list/ HTTP/1.1" 200 12697
+INFO 2022-06-12 13:30:22,217 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:30:22,574 Watching for file changes with StatReloader
+INFO 2022-06-12 13:30:26,850 "GET /session/list/ HTTP/1.1" 200 12548
+INFO 2022-06-12 13:30:42,423 "GET /session/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 13:30:42,547 "GET /session/list/ HTTP/1.1" 200 12702
+INFO 2022-06-12 13:30:49,614 "GET /session/activation/1 HTTP/1.1" 302 0
+INFO 2022-06-12 13:30:49,756 "GET /session/list/ HTTP/1.1" 200 12702
+INFO 2022-06-12 13:34:01,764 "GET /session/list/ HTTP/1.1" 200 12547
+INFO 2022-06-12 13:34:14,360 "GET /session/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 13:34:14,495 "GET /session/list/ HTTP/1.1" 200 12701
+INFO 2022-06-12 13:35:34,880 /home/pythonista/Desktop/djanago-school/apps/corecode/forms.py changed, reloading.
+INFO 2022-06-12 13:35:35,260 Watching for file changes with StatReloader
+INFO 2022-06-12 13:35:54,908 "GET /session/list/ HTTP/1.1" 200 12248
+INFO 2022-06-12 13:35:58,828 "GET /session/2/update/ HTTP/1.1" 200 9879
+INFO 2022-06-12 13:36:17,782 "GET /session/activation/1 HTTP/1.1" 302 0
+INFO 2022-06-12 13:36:17,914 "GET /session/list/ HTTP/1.1" 200 12402
+INFO 2022-06-12 13:36:38,061 "GET /admin/ HTTP/1.1" 200 6604
+INFO 2022-06-12 13:36:42,680 "GET /admin/ HTTP/1.1" 200 6604
+INFO 2022-06-12 13:36:45,906 "GET /admin/corecode/academicsession/ HTTP/1.1" 200 7881
+INFO 2022-06-12 13:36:46,088 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:36:49,762 "GET /admin/corecode/academicsession/3/change/ HTTP/1.1" 200 7603
+INFO 2022-06-12 13:36:49,887 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:37:08,269 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 13:37:13,827 "GET /session/list/ HTTP/1.1" 200 12248
+INFO 2022-06-12 13:37:38,669 "POST /session/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:37:38,784 "GET /session/list/ HTTP/1.1" 200 12860
+INFO 2022-06-12 13:40:45,346 /home/pythonista/Desktop/djanago-school/apps/corecode/models.py changed, reloading.
+INFO 2022-06-12 13:40:45,677 Watching for file changes with StatReloader
+INFO 2022-06-12 13:41:08,833 "POST /session/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:41:08,934 "GET /session/list/ HTTP/1.1" 200 13327
+INFO 2022-06-12 13:44:37,682 "GET /current-session/ HTTP/1.1" 200 10678
+ERROR 2022-06-12 13:44:46,132 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 270, in post
+    return render(request, self.template_name, {"form": form})
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 10, in site_defaults
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 13:44:46,135 "POST /current-session/ HTTP/1.1" 500 124404
+INFO 2022-06-12 13:47:34,535 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:47:34,884 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:48:03,794 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 13:48:03,795 "GET /current-session/ HTTP/1.1" 500 73183
+ERROR 2022-06-12 13:48:12,115 Internal Server Error: /session/list/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 13:48:12,115 "GET /session/list/ HTTP/1.1" 500 72888
+ERROR 2022-06-12 13:48:16,352 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py", line 13, in __call__
+    current_term = AcademicTerm.objects.get(current=True)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 13:48:16,353 "GET / HTTP/1.1" 500 73066
+INFO 2022-06-12 13:49:27,912 /home/pythonista/Desktop/djanago-school/apps/corecode/middleware.py changed, reloading.
+INFO 2022-06-12 13:49:28,291 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:49:33,076 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 13:49:33,077 "GET / HTTP/1.1" 500 95705
+INFO 2022-06-12 13:50:33,614 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:50:33,932 Watching for file changes with StatReloader
+ERROR 2022-06-12 13:50:37,081 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 13:50:37,083 "GET / HTTP/1.1" 500 95708
+INFO 2022-06-12 13:50:51,445 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:50:51,794 Watching for file changes with StatReloader
+INFO 2022-06-12 13:50:55,929 "GET / HTTP/1.1" 200 9301
+ERROR 2022-06-12 13:51:02,617 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 256, in get
+    "current_term": AcademicTerm.objects.get(current=True),
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 13:51:02,618 "GET /current-session/ HTTP/1.1" 500 92918
+INFO 2022-06-12 13:51:31,784 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:51:32,182 Watching for file changes with StatReloader
+INFO 2022-06-12 13:52:03,743 "GET / HTTP/1.1" 200 9301
+INFO 2022-06-12 13:52:07,768 "GET /staff/list/ HTTP/1.1" 200 9698
+INFO 2022-06-12 13:52:15,284 "GET /term/list/ HTTP/1.1" 200 12313
+INFO 2022-06-12 13:52:51,248 "GET /term/2/delete/ HTTP/1.1" 200 9998
+INFO 2022-06-12 13:52:53,849 "POST /term/2/delete/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:52:54,020 "GET /term/list/ HTTP/1.1" 200 12470
+INFO 2022-06-12 13:53:03,690 "GET /term/2/update/ HTTP/1.1" 200 10168
+INFO 2022-06-12 13:53:17,153 "GET /admin/ HTTP/1.1" 200 6604
+INFO 2022-06-12 13:53:18,939 "GET /admin/ HTTP/1.1" 200 6604
+INFO 2022-06-12 13:53:23,852 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 7842
+INFO 2022-06-12 13:53:23,993 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:53:26,235 "GET /admin/corecode/academicterm/2/change/ HTTP/1.1" 200 7582
+INFO 2022-06-12 13:53:26,362 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:53:30,263 "POST /admin/corecode/academicterm/2/change/ HTTP/1.1" 302 0
+INFO 2022-06-12 13:53:30,412 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 8059
+INFO 2022-06-12 13:53:30,538 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 13:53:45,831 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 13:53:46,172 Watching for file changes with StatReloader
+INFO 2022-06-12 13:53:51,804 "GET / HTTP/1.1" 200 9290
+INFO 2022-06-12 13:57:03,583 /home/pythonista/Desktop/djanago-school/apps/corecode/views.py changed, reloading.
+INFO 2022-06-12 13:57:03,955 Watching for file changes with StatReloader
+INFO 2022-06-12 13:57:15,377 /home/pythonista/Desktop/djanago-school/apps/corecode/views.py changed, reloading.
+INFO 2022-06-12 13:57:15,708 Watching for file changes with StatReloader
+INFO 2022-06-12 13:58:19,019 /home/pythonista/Desktop/djanago-school/apps/corecode/urls.py changed, reloading.
+INFO 2022-06-12 13:58:19,390 Watching for file changes with StatReloader
+INFO 2022-06-12 14:00:20,743 "GET /term/list/ HTTP/1.1" 200 12522
+INFO 2022-06-12 14:00:27,901 "GET /Term/activation/3 HTTP/1.1" 302 0
+INFO 2022-06-12 14:00:28,017 "GET /term/list/ HTTP/1.1" 200 12673
+INFO 2022-06-12 14:01:48,303 "GET /term/list/ HTTP/1.1" 200 12054
+INFO 2022-06-12 14:02:19,521 "GET /term/list/ HTTP/1.1" 200 11970
+INFO 2022-06-12 14:02:57,052 "GET /current-session/ HTTP/1.1" 200 10678
+ERROR 2022-06-12 14:03:06,705 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 277, in post
+    return render(request, self.template_name, {"form": form})
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 14:03:06,706 "POST /current-session/ HTTP/1.1" 500 115892
+ERROR 2022-06-12 14:03:28,816 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 263, in get
+    "current_term": AcademicTerm.objects.get(current=True),
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/db/models/query.py", line 439, in get
+    raise self.model.MultipleObjectsReturned(
+apps.corecode.models.AcademicTerm.MultipleObjectsReturned: get() returned more than one AcademicTerm -- it returned 2!
+ERROR 2022-06-12 14:03:28,817 "GET /current-session/ HTTP/1.1" 500 93065
+ERROR 2022-06-12 14:03:50,212 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 14:03:50,213 "GET /admin/ HTTP/1.1" 500 118865
+INFO 2022-06-12 14:04:17,434 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 14:04:17,743 Watching for file changes with StatReloader
+ERROR 2022-06-12 14:04:19,726 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 168, in render
+    with context.bind_template(self):
+  File "/usr/lib/python3.9/contextlib.py", line 119, in __enter__
+    return next(self.gen)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/context.py", line 244, in bind_template
+    updates.update(processor(self.request))
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py", line 13, in site_defaults
+    "current_session": current_session.name,
+AttributeError: 'QuerySet' object has no attribute 'name'
+ERROR 2022-06-12 14:04:19,727 "GET /admin/ HTTP/1.1" 500 118884
+INFO 2022-06-12 14:04:40,288 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 14:04:40,615 Watching for file changes with StatReloader
+INFO 2022-06-12 14:04:43,571 "GET /admin/ HTTP/1.1" 200 6908
+INFO 2022-06-12 14:04:48,005 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 7842
+INFO 2022-06-12 14:04:48,129 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 14:04:51,760 "GET /admin/corecode/academicterm/1/change/ HTTP/1.1" 200 7582
+INFO 2022-06-12 14:04:51,926 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 14:04:55,072 "POST /admin/corecode/academicterm/1/change/ HTTP/1.1" 302 0
+INFO 2022-06-12 14:04:55,218 "GET /admin/corecode/academicterm/ HTTP/1.1" 200 8059
+INFO 2022-06-12 14:04:55,387 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 14:05:01,794 "GET /admin/corecode/academicsession/ HTTP/1.1" 200 8321
+INFO 2022-06-12 14:05:01,951 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-06-12 14:05:06,879 "GET / HTTP/1.1" 200 9310
+INFO 2022-06-12 14:05:21,691 "GET /session/list/ HTTP/1.1" 200 13202
+INFO 2022-06-12 14:05:36,819 /home/pythonista/Desktop/djanago-school/apps/corecode/context_processors.py changed, reloading.
+INFO 2022-06-12 14:05:37,186 Watching for file changes with StatReloader
+INFO 2022-06-12 14:05:40,690 "GET /session/list/ HTTP/1.1" 200 13182
+INFO 2022-06-12 14:05:54,010 "GET /current-session/ HTTP/1.1" 200 10678
+ERROR 2022-06-12 14:09:43,514 Internal Server Error: /current-session/
+Traceback (most recent call last):
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/apps/corecode/views.py", line 266, in get
+    return render(request, self.template_name, {"form": form})
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/pythonista/Desktop/djanago-school/venv/lib/python3.9/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'session' not found. 'session' is not a valid view function or pattern name.
+ERROR 2022-06-12 14:09:43,515 "GET /current-session/ HTTP/1.1" 500 162202
+INFO 2022-06-12 14:10:00,931 "GET /current-session/ HTTP/1.1" 200 10669
+INFO 2022-06-12 14:10:07,072 "GET /term/list/ HTTP/1.1" 200 11961
+INFO 2022-06-12 14:10:09,927 "GET /session/list/ HTTP/1.1" 200 13173
+INFO 2022-06-12 14:10:14,010 "GET /term/list/ HTTP/1.1" 200 11961
+INFO 2022-06-12 14:10:15,664 "GET /session/list/ HTTP/1.1" 200 13173
+INFO 2022-06-12 14:11:41,381 "GET /session/4/update/ HTTP/1.1" 200 9870
+INFO 2022-06-12 14:11:45,759 "GET /term/list/ HTTP/1.1" 200 11961
+INFO 2022-06-12 14:11:49,067 "GET /Term/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 14:11:49,197 "GET /term/list/ HTTP/1.1" 200 12112
+INFO 2022-06-12 14:11:52,590 "GET /Term/activation/1 HTTP/1.1" 302 0
+INFO 2022-06-12 14:11:52,749 "GET /term/list/ HTTP/1.1" 200 12112
+INFO 2022-06-12 14:12:00,833 "GET /Term/activation/2 HTTP/1.1" 302 0
+INFO 2022-06-12 14:12:00,958 "GET /term/list/ HTTP/1.1" 200 12112
+INFO 2022-06-12 14:12:15,355 "GET /student/list HTTP/1.1" 200 12508
+INFO 2022-06-12 14:12:21,888 "GET /student/1/update/ HTTP/1.1" 200 13802
+INFO 2022-06-12 14:13:38,090 /home/pythonista/Desktop/djanago-school/apps/students/models.py changed, reloading.
+INFO 2022-06-12 14:13:38,410 Watching for file changes with StatReloader
+INFO 2022-06-12 14:15:20,102 /home/pythonista/Desktop/djanago-school/apps/students/signals.py changed, reloading.
+INFO 2022-06-12 14:15:20,422 Watching for file changes with StatReloader
+INFO 2022-06-12 14:15:39,927 /home/pythonista/Desktop/djanago-school/apps/students/signals.py changed, reloading.
+INFO 2022-06-12 14:15:40,367 Watching for file changes with StatReloader
+INFO 2022-06-12 14:16:10,019 /home/pythonista/Desktop/djanago-school/apps/students/views.py changed, reloading.
+INFO 2022-06-12 14:16:10,410 Watching for file changes with StatReloader
+INFO 2022-06-12 14:20:14,442 "GET /student/1/update/ HTTP/1.1" 200 13773
+INFO 2022-06-12 14:20:39,691 "POST /student/1/update/ HTTP/1.1" 302 0
+INFO 2022-06-12 14:20:39,820 "GET /student/list HTTP/1.1" 200 12651
+INFO 2022-06-12 14:20:58,006 "GET /student/2/ HTTP/1.1" 200 11110
+INFO 2022-06-12 14:21:07,123 "GET /student/list HTTP/1.1" 200 12508
+INFO 2022-06-12 14:21:10,639 "GET /student/1/ HTTP/1.1" 200 11609
+INFO 2022-06-12 14:21:10,780 "GET /media/students/photos/avatar.png HTTP/1.1" 200 34154
+INFO 2022-06-12 14:22:35,759 "GET /student/1/ HTTP/1.1" 200 11609
+INFO 2022-06-12 14:22:35,917 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:24:31,300 "GET /student/1/ HTTP/1.1" 200 11623
+INFO 2022-06-12 14:24:31,467 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:24:34,071 "GET /student/1/ HTTP/1.1" 200 11623
+INFO 2022-06-12 14:25:00,728 "GET /student/1/ HTTP/1.1" 200 11612
+INFO 2022-06-12 14:25:00,907 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:26:40,945 "GET /student/1/ HTTP/1.1" 200 11565
+INFO 2022-06-12 14:26:41,085 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:30:44,990 "GET /student/1/ HTTP/1.1" 200 12361
+INFO 2022-06-12 14:30:45,115 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:31:56,999 "GET /student/1/ HTTP/1.1" 200 12325
+INFO 2022-06-12 14:31:57,139 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:33:05,521 "GET /student/1/ HTTP/1.1" 200 12138
+INFO 2022-06-12 14:33:05,734 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:33:56,451 "GET /student/1/ HTTP/1.1" 200 12159
+INFO 2022-06-12 14:35:18,489 "GET /student/1/ HTTP/1.1" 200 11979
+INFO 2022-06-12 14:35:18,662 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:37:25,674 "GET /student/1/ HTTP/1.1" 200 11966
+INFO 2022-06-12 14:37:25,806 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:39:00,461 "GET /student/list HTTP/1.1" 200 12508
+INFO 2022-06-12 14:39:07,353 "GET /student/6/ HTTP/1.1" 200 11439
+INFO 2022-06-12 14:39:55,483 "GET /session/list/ HTTP/1.1" 200 13173
+INFO 2022-06-12 14:39:58,200 "GET /term/list/ HTTP/1.1" 200 11961
+INFO 2022-06-12 14:40:04,566 "GET /term/list/ HTTP/1.1" 200 11961
+INFO 2022-06-12 14:40:10,082 "GET /result/create/ HTTP/1.1" 200 11607
+INFO 2022-06-12 14:40:47,097 "POST /result/create/ HTTP/1.1" 200 11674
+INFO 2022-06-12 14:41:07,971 "POST /result/create/ HTTP/1.1" 302 0
+INFO 2022-06-12 14:41:08,162 "GET /result/edit-results/ HTTP/1.1" 200 17919
+INFO 2022-06-12 14:43:40,136 "POST /result/edit-results/ HTTP/1.1" 302 0
+INFO 2022-06-12 14:43:40,331 "GET /result/edit-results/ HTTP/1.1" 200 18100
+INFO 2022-06-12 14:43:47,255 "GET /result/view/all HTTP/1.1" 200 13092
+INFO 2022-06-12 14:46:12,681 "GET /staff/list/ HTTP/1.1" 200 9678
+INFO 2022-06-12 14:46:17,497 "GET /student/list HTTP/1.1" 200 12508
+INFO 2022-06-12 14:46:21,247 "GET /student/1/ HTTP/1.1" 200 11966
+INFO 2022-06-12 14:46:21,368 "GET /media/students/photos/avatar.png HTTP/1.1" 304 0
+INFO 2022-06-12 14:46:33,179 "GET /finance/1/detail/ HTTP/1.1" 200 11299
+INFO 2022-06-12 14:47:22,053 "GET /student/list HTTP/1.1" 200 12508
+INFO 2022-06-12 14:47:24,386 "GET / HTTP/1.1" 200 9281
+INFO 2022-06-12 14:47:38,852 "GET /subject/list/ HTTP/1.1" 200 12532
+INFO 2022-06-12 14:47:43,309 "GET /site-config HTTP/1.1" 200 10853

@@ -22,11 +22,8 @@ from .models import (
     StudentClass,
     Subject,
 )
-
-
 class IndexView(LoginRequiredMixin, TemplateView):
     template_name = "index.html"
-
 
 class SiteConfigView(LoginRequiredMixin, View):
     """Site Config View"""
@@ -46,8 +43,6 @@ class SiteConfigView(LoginRequiredMixin, View):
             messages.success(request, "Configurations successfully updated")
         context = {"formset": formset, "title": "Configuration"}
         return render(request, self.template_name, context)
-
-
 class SessionListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
     model = AcademicSession
     template_name = "corecode/session_list.html"
@@ -131,8 +126,6 @@ class TermCreateView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
     template_name = "corecode/mgt_form.html"
     success_url = reverse_lazy("terms")
     success_message = "New term successfully added"
-
-
 class TermUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     model = AcademicTerm
     form_class = AcademicTermForm
@@ -189,8 +182,6 @@ class ClassUpdateView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
     success_url = reverse_lazy("classes")
     success_message = "class successfully updated."
     template_name = "corecode/mgt_form.html"
-
-
 class ClassDeleteView(LoginRequiredMixin, DeleteView):
     model = StudentClass
     success_url = reverse_lazy("classes")
@@ -238,8 +229,6 @@ class SubjectDeleteView(LoginRequiredMixin, DeleteView):
         obj = self.get_object()
         messages.success(self.request, self.success_message.format(obj.name))
         return super(SubjectDeleteView, self).delete(request, *args, **kwargs)
-
-
 class CurrentSessionAndTermView(LoginRequiredMixin, View):
     """Current SEssion and Term"""
 
