@@ -1,8 +1,6 @@
 from django.db import models
 
 # Create your models here.
-
-
 class SiteConfig(models.Model):
     """Site Configurations"""
 
@@ -11,8 +9,6 @@ class SiteConfig(models.Model):
 
     def __str__(self):
         return self.key
-
-
 class AcademicSession(models.Model):
     """Academic Session"""
 
@@ -24,8 +20,6 @@ class AcademicSession(models.Model):
 
     def __str__(self):
         return self.name
-
-
 class AcademicTerm(models.Model):
     """Academic Term"""
 
@@ -37,11 +31,8 @@ class AcademicTerm(models.Model):
 
     def __str__(self):
         return self.name
-
-
 class Subject(models.Model):
     """Subject"""
-
     name = models.CharField(max_length=200, unique=True)
 
     class Meta:
@@ -49,14 +40,11 @@ class Subject(models.Model):
 
     def __str__(self):
         return self.name
-
-
 class StudentClass(models.Model):
     name = models.CharField(max_length=200, unique=True)
-
     class Meta:
         verbose_name = "Class"
-        verbose_name_plural = "Classes"
+        verbose_name_plural ="Classes"
         ordering = ["name"]
 
     def __str__(self):
