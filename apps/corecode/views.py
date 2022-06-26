@@ -193,8 +193,6 @@ class ClassDeleteView(LoginRequiredMixin, DeleteView):
         print(obj.name)
         messages.success(self.request, self.success_message.format(obj.name))
         return super(ClassDeleteView, self).delete(request, *args, **kwargs)
-
-
 class SubjectListView(LoginRequiredMixin, SuccessMessageMixin, ListView):
     model = Subject
     template_name = "corecode/subject_list.html"

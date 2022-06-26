@@ -17,8 +17,6 @@ SiteConfigForm = modelformset_factory(
     ),
     extra=0,
 )
-
-
 class AcademicSessionForm(ModelForm):
     prefix = "Academic Session"
 
@@ -26,14 +24,12 @@ class AcademicSessionForm(ModelForm):
         model = AcademicSession
         fields = ["name",]
 
-
 class AcademicTermForm(ModelForm):
     prefix = "Academic Term"
 
     class Meta:
         model = AcademicTerm
         fields = ["name", "current"]
-
 
 class SubjectForm(ModelForm):
     prefix = "Subject"
@@ -49,7 +45,6 @@ class StudentClassForm(ModelForm):
     class Meta:
         model = StudentClass
         fields = ["name"]
-
 
 class CurrentSessionForm(forms.Form):
     current_session = forms.ModelChoiceField(
